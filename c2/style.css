@@ -1,0 +1,55 @@
+#article{
+    border: 1px solid goldenrod;
+    padding:15px;
+    width:60%;
+    margin-left: 20%;
+    margin-right:20%;
+    background-color: rgba(250, 214, 124, 0.845);
+}
+.article-title{
+    border-bottom: 2px solid gray;
+    width: 50%;    
+    color:crimson;
+}
+.publish-date{
+    font-size:0.8em;
+    text-align: right;
+    color:gray;
+    margin: 10px;
+}
+.article-content{
+    line-height: 1.5em;
+    text-align: justify;
+    
+}
+#tags{
+    margin:15px;
+
+}
+.tags-title{
+    display: inline;
+}
+.tag{
+    padding: 10px;
+    display: inline-block;
+    background-color:crimson;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*
+h1{
+    color:blue;
+    font-size: 40px;
+}
+table{
+    margin: 10px;
+    border:1px solid rgb(0, 255, 174);
+}
+td{
+    border-width:1px;
+    border-style: solid;
+    border-color:green;
+    padding:10px;
+}
+*/
