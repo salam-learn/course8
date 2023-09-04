@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method="post" action="index.html">
+        <div>
+            <h3>Short Text</h3>
+            <input type="text" name="user_name" placeholder="Enter Your name">
+        </div>
+        <div>
+            <h3>Password</h3>
+            <input type="password" name="user_pass" placeholder="Enter password">
+        </div>
+        <div>
+            <div><label for="email">E-mail</label></div>
+            <input type="text" name="my_email" id="email"></input>
+        </div>
+        <div>
+            <h3>radio input</h3>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+        </div>
+        <div>
+            <h3>checkbox input</h3>
+            <input type="checkbox" name="courses" value="PHP">PHP<br>
+            <input type="checkbox" name="courses" value="Java">Java<br>
+            <input type="checkbox" name="courses" value="Python">Python<br>
+            <input type="checkbox" name="courses" value="C#">C#<br>
+        </div>
+        <div>
+            <h3>Long Text</h3>
+            <textarea name="long_text" cols="80" rows="4"></textarea>
+        </div>
+        <div>
+            <h3>Select</h3>
+            <select name="select_menu">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+                <option>Option 5</option>
+            </select>
+        </div>
+        <input type="button" value="Click me">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
