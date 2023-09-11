@@ -1,0 +1,140 @@
+
+#container{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#logo{
+    background-color: brown;
+    color:white;
+    padding: 20px;
+}
+
+
+
+#logo h1{
+    font-size: 2.2em;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#menu{
+    background-color: goldenrod;
+    margin:10px;
+}
+#menu ul li{
+    display: inline-block;
+    margin:10px;
+    padding:5px;
+
+}
+#menu ul li a{
+ background-color: rgb(147, 107, 5);   
+ display: inline-block;
+ padding:5px;
+ margin:5px;
+ color:white;
+ text-decoration: none;
+
+}
+#display-menu{
+    display: none;
+}
+#about{
+    border:1px solid brown;
+    padding: 15px;
+    margin-top:20px;
+    border-radius: 15px;
+}
+#about h3{
+    color:brown;
+}
+#about p{
+    color:rgb(80,80,80);
+    font-family: 'Dancing Script', cursive;
+    font-size:2em;
+}
+#services{
+    background-color: #000;
+    display: flex;
+    margin-top:20px;
+    justify-content:space-around;
+}
+.service{
+    background-color: bisque;
+    border-radius: 20px;
+    width:25%;
+    padding:10px;
+    margin:10px;
+    padding-top:0;
+    text-align: center;
+}
+#contact{
+    margin-top:20px;
+    background-color: #eaeaea;
+    padding: 20px;
+}
+#contact h3{
+    color:brown;
+}
+#contact-form div{
+    margin:10px;
+} 
+input, textarea {
+    width:70%;
+    padding:5px;
+    font-size:14px;
+    border:1px solid brown;
+    height: 30px;
+    border-radius: 10px;
+}
+textarea{
+    height: 100px;
+}
+input[type=submit]{
+    width:100px;
+}
+
+@media (width < 600px){
+    #logo{
+        background-color: rgb(6, 5, 5);
+        color:white;
+        padding: 20px;
+    }
+    #services{
+        display: block;
+        padding: 20px;
+    }
+    .service {
+        width:90%;
+        
+    }   
+    #about{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+
+    #menu ul li{
+        display: block;
+        margin:10px;
+        padding:5px;
+    
+    }
+    #menu ul li a{
+     background-color: rgb(147, 107, 5);   
+     display: inline-block;
+     padding:5px;
+     margin:5px;
+     color:white;
+     text-decoration: none;
+    
+    }
+    #display-menu{
+        display: block;
+    }
+}
+@media (600px < width <800px){
+    #logo{
+        background-color: green;
+    }
+}
