@@ -1,0 +1,50 @@
+body{
+    min-height: 3000px;
+}
+#main{
+    width:80%;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: #e0e0e0;
+    position: relative;
+    min-height: 340px;
+}
+
+.box {
+    width:200px;
+    height:200px;
+    position:absolute;
+    z-index:10;
+    opacity: 0.7;
+    transition-duration: 1000ms;
+    transition-delay: 10ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    
+}
+#box1{
+    background-color: green;
+    left:50px;
+    top:150px;
+
+}
+#box2{
+    background-color: yellow;
+    left:100px;
+    top:50px;
+
+}
+#box3{
+    background-color: blue;
+    left:200px;
+    top:100px;
+    
+
+}
+#box1:hover, #box2:hover, #box3:hover{
+    z-index:11;
+    background-color: red;
+    transform: rotate(30deg);
+    opacity:1;
+    
+}
