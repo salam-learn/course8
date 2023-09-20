@@ -1,0 +1,53 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(171, 171, 171);
+    position: absolute;
+    left:200px;
+    top:200px;
+    border-top:5px solid black;
+    border-radius: 50%;
+
+    animation-name: animation2;
+    animation-duration: 500ms;
+    animation-iteration-count:infinite;
+
+    /* animation-name: move-to;
+    animation-duration: 1000ms; */
+}
+/* 
+@keyframes move-to {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateY(100px);
+    }
+} 
+*/
+#image{
+    animation-name: animation2;
+    animation-duration: 1000ms;
+ animation-iteration-count:infinite;
+    
+}
+#image:hover{
+    animation-play-state: paused;
+}
+@keyframes animation2 {
+    0%{
+        opacity: 0.8;
+    }
+    30%{
+        transform: rotate(108deg);
+        opacity:0.4;
+        
+    }
+    50%{        
+        transform: scale(1.05);
+    }
+    100%{
+        transform: rotate(260deg);
+        opacity: 1;
+    }
+}
